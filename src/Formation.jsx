@@ -5,8 +5,8 @@ function Formation() {
         <>
             <h1>Formation</h1>
             <div className="formations">
-                <p>Software Engineering - École de Technologie Supérieure<br/>
-                    Cloud Practitioner - AWS Skillbuilder</p>
+                <pre>Software Engineering - École de Technologie Supérieure<br/>
+                    AWS Certified Developer Associate - AWS Certification</pre>
             </div>
         </>
     )

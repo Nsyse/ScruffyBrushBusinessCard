@@ -153,7 +153,11 @@ button:focus-visible {
     min-width: 60%;
 }
 
-.blurb > p {
+pre{
+    font-family: 'Roboto', sans-serif;
+}
+
+.blurb > p, pre {
     margin-top: 0rem;
     text-indent: 1em;
 }
