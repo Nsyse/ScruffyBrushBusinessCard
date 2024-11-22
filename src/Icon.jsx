@@ -2,9 +2,7 @@ import './App.css'
 
 function Icon() {
   return (
-    <>
-      <img src="./images/Icon.png" className="mainPhoto" alt={"Pixelart headshot of a lion"}/>
-    </>
+      <img src="./images/Signature_GB.png" className="mainPhoto" alt={"Pixelart signature of ScruffyBrush"}/>
   )
 }
 

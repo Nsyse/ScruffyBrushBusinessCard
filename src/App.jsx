@@ -1,24 +1,31 @@
 import './App.css'
-import Icon from "./Icon.jsx";
-import EmailButton from "./EmailButton.jsx";
-import About from "./About.jsx";
-import Formation from "./Formation.jsx";
-import FooterSocials from "./FooterSocials.jsx";
+import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import Layout from "./Layout/Layout.jsx";
+import AboutPage from "./About/AboutPage.jsx";
+import Commissions from "./Commissions/Commissions.jsx";
+import Tos from "./Tos/Tos.jsx";
 
-function App() {
-    return (
-        <>
-            <div className="card">
-                <Icon/>
-                <h1 className="signature">ScruffyBrush</h1>
-                <h2>Software Bard</h2>
-                <EmailButton />
-                <About/>
-                <Formation/>
-            </div>
-            <FooterSocials/>
-        </>
-    )
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Layout/>,
+        children: [
+            {
+                path:"about",
+                element: <AboutPage/>,
+            },
+            {
+                index : true,
+                element: <Commissions/>,
+            },
+            {
+                path:"tos",
+                element: <Tos/>,
+            }
+        ]
+    },
+]);
+
+export default function App() {
+    return <RouterProvider router={router}/>
 }
-
-export default App
