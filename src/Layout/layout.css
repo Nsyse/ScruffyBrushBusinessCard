@@ -60,3 +60,14 @@
     background-color: rgba(0, 0, 0, 0);
     text-decoration: underline;
 }
+.horizontal-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-content {
+    display: inline-flex;
+    flex-direction: column;
+}

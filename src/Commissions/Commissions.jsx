@@ -6,6 +6,7 @@ export default function Commissions() {
     return (
         <>
             <div className="centeredBlurb">
+                <div style={{width: "70%"}}>(All prices in USD)</div>
                 <CommissionExample
                     price={20}
                     title={"64x64 Headshot"}
@@ -16,7 +17,6 @@ export default function Commissions() {
                     title={"Phone background"}
                     src="./images/examples/Lyze_GB.png"
                 />
-                <div style ={{width:"70%"}}>(All prices in USD)</div>
             </div>
         </>
     )

@@ -5,19 +5,19 @@
 @property --white {
     syntax: "<color>";
     inherits: false;
-    initial-value: #d6f5d5;
+    initial-value: rgb(212, 243, 211);
 }
 
 @property --pale {
     syntax: "<color>";
     inherits: false;
-    initial-value: #6ba56b;
+    initial-value: rgb(85, 141, 95);
 }
 
 @property --dark {
     syntax: "<color>";
     inherits: false;
-    initial-value: #1f5849;
+    initial-value: rgb(23, 70, 62);
 }
 
 @property --black {
@@ -129,8 +129,8 @@ button {
 }
 
 .social-icon {
-    height: 4vh;
-    width: 4vh;
+    height: 7vh;
+    width: 7vh;
     display: block;
     filter: drop-shadow(0px 132px 0 var(--white)) drop-shadow(2px 2px 2px var(--dark));
     transform: translateY(-132px);
@@ -197,10 +197,10 @@ button:focus-visible {
 
 .mainPhoto {
     image-rendering: pixelated;
-
-    min-width: 8rem;
-    aspect-ratio: initial;
+    height: 150px;
     margin: 8px;
+    flex-grow: 0;
+    opacity: 75%;
 }
 
 pre {
@@ -221,7 +221,7 @@ pre {
     align-items: center;
     flex-direction: column;
     padding-bottom: 8px;
-    margin-right: 32px;
+    margin-right: 4vw;
 }
 
 .footerSocials {
@@ -235,4 +235,8 @@ pre {
 h3 {
     margin-top: -10px;
     padding: 0;
+}
+
+p, li, pre {
+    font-size: 1.5rem;
 }

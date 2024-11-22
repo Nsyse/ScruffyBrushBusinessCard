@@ -8,12 +8,16 @@ import NavBar from "./NavBar.jsx";
 export default function Layout() {
     return (
         <>
-            <div className="card">
-
+            <div className="horizontal-content">
                 <Icon/>
-                <NavBar/>
-                <div className="roundCard">
-                    <Outlet/>
+                <div className="card">
+
+                    <div className="vertical-content">
+                        <NavBar/>
+                        <div className="roundCard">
+                            <Outlet/>
+                        </div>
+                    </div>
                 </div>
             </div>
             <FooterSocials/>
