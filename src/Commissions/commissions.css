@@ -1,14 +1,13 @@
 .pricelabel {
     color: #d6f5d5;
-    font-family: "Bokor", system-ui;
-    filter:drop-shadow(3px 3px 1px var(--black));
-    font-size: 3rem;
-    margin:16px;
-    padding:0px 32px 0px 16px;
+    font-family: "Pixelify Sans", system-ui;
+    font-size: 2.5rem;
+    margin:-160px -32px 16px 16px;
+    padding:0px 84px 0px 16px;
     transform: rotate(-15deg);
     display:inline-block;
     background-color: var(--dark);
-    text-shadow:2px 2px 2px var(--dark);
+    text-shadow:2px 2px 2px var(--black);
     height: 3rem;
 }
 
@@ -25,7 +24,7 @@
 
 .dollarSign {
     color: var(--pale);
-    font-size: 3.5rem;
+    font-size: 3rem;
     position: absolute;
     top: -5px;
 }
@@ -40,9 +39,11 @@
 }
 
 .imageExample {
+    display: block;
+    width:auto;
+    height: auto;
     max-width: 100%;
-    max-height: 60vh;
-    aspect-ratio: auto;
+    aspect-ratio: initial !important;
     border-radius: 16px;
     display:inline-block;
 }

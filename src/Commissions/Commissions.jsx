@@ -6,7 +6,6 @@ export default function Commissions() {
     return (
         <>
             <div className="centeredBlurb">
-                <div style={{width: "70%"}}>(All prices in USD)</div>
                 <CommissionExample
                     price={20}
                     title={"64x64 Headshot"}

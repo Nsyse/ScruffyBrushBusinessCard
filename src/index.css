@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Tiny5');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css2?family=Bokor');
+@import url('https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,400;0,700;');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400');
 
 @property --white {
     syntax: "<color>";
@@ -47,13 +47,6 @@
     padding: 0px;
     padding-bottom: 150px;
     background: var(--black);
-}
-
-.social-link {
-    padding: 10px;
-    margin-top: -6vh;
-    margin-right: 24px;
-    overflow: hidden;
 }
 
 a {
@@ -128,19 +121,6 @@ button {
     filter: drop-shadow(2px 2px 2px var(--dark));
 }
 
-.social-icon {
-    height: 7vh;
-    width: 7vh;
-    display: block;
-    filter: drop-shadow(0px 100vh 0 var(--white)) drop-shadow(2px 2px 2px var(--dark));
-    transform: translateY(-100vh);
-}
-
-.social-icon-small {
-    height: 48px;
-    width: 48px;
-}
-
 .button-icon {
     height: 16px;
     margin-right: 16px;
@@ -210,26 +190,6 @@ pre {
 .blurb > p, pre {
     margin-top: 0rem;
     text-indent: 1em;
-}
-
-.discord-div {
-    width: 125px;
-    /*margin:20px;*/
-    /*padding: 0px 4px;*/
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 8px;
-    margin-right: 4vw;
-}
-
-.footerSocials {
-    background-color: var(--dark);
-    height: 64px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
 }
 
 h3 {

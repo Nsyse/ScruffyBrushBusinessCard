@@ -17,7 +17,7 @@ export default function Layout() {
 
                     <div className="vertical-content">
                         <NavBar/>
-                        <div className={`roundCard ${location.pathname==="/" ? "uncapped-width" : ""}`}>
+                        <div className={`roundCard ${location.pathname === "/" ? "uncapped-width" : ""}`}>
                             <Outlet/>
                         </div>
                     </div>
