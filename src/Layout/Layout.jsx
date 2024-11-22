@@ -2,10 +2,13 @@ import '../App.css'
 import "./layout.css"
 import Icon from "../Icon.jsx";
 import FooterSocials from "../FooterSocials.jsx";
-import {Outlet} from "react-router-dom";
+import {Outlet, useLocation} from "react-router-dom";
 import NavBar from "./NavBar.jsx";
 
 export default function Layout() {
+
+    const location = useLocation();
+
     return (
         <>
             <div className="horizontal-content">
@@ -14,7 +17,7 @@ export default function Layout() {
 
                     <div className="vertical-content">
                         <NavBar/>
-                        <div className="roundCard">
+                        <div className={`roundCard ${location.pathname==="/" ? "uncapped-width" : ""}`}>
                             <Outlet/>
                         </div>
                     </div>

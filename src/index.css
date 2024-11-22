@@ -132,8 +132,8 @@ button {
     height: 7vh;
     width: 7vh;
     display: block;
-    filter: drop-shadow(0px 132px 0 var(--white)) drop-shadow(2px 2px 2px var(--dark));
-    transform: translateY(-132px);
+    filter: drop-shadow(0px 100vh 0 var(--white)) drop-shadow(2px 2px 2px var(--dark));
+    transform: translateY(-100vh);
 }
 
 .social-icon-small {
@@ -238,5 +238,5 @@ h3 {
 }
 
 p, li, pre {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }

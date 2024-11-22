@@ -28,11 +28,16 @@
 
 .roundCard {
     display:inline-flex;
+    max-width: 1030px;
     justify-content: center;
     background: var(--dark);
     border-radius: 32px;
     padding: 8px;
     margin: 0px 8px 0px 8px;
+}
+
+.uncapped-width{
+    max-width: none;
 }
 
 .footer {
