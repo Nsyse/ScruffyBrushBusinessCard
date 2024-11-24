@@ -43,7 +43,8 @@
     display: block;
     width:auto;
     height: auto;
-    min-width: 600px;
+    min-width: min(600px, 70vw);
+    max-width: min(600px, 70vw);
     aspect-ratio: initial !important;
     border-radius: 16px;
     display:inline-block;
