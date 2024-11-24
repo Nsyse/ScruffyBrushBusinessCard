@@ -39,10 +39,11 @@
 }
 
 .imageExample {
+    image-rendering: pixelated;
     display: block;
     width:auto;
     height: auto;
-    max-width: 100%;
+    min-width: 600px;
     aspect-ratio: initial !important;
     border-radius: 16px;
     display:inline-block;

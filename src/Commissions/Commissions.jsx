@@ -8,13 +8,13 @@ export default function Commissions() {
             <div className="centeredBlurb">
                 <CommissionExample
                     price={20}
-                    title={"64x64 Headshot"}
+                    title={"160x144 Headshot"}
                     src="./images/examples/LyzeGB_Headshot.png"
                 />
                 <CommissionExample
                     price={30}
-                    title={"Phone background"}
-                    src="./images/examples/Lyze_GB.png"
+                    title={"Fullbody phone background"}
+                    src="./images/examples/TannyTTRPG_Druid.png"
                 />
             </div>
         </>
