@@ -1,6 +1,6 @@
 .pricelabel {
     color: #d6f5d5;
-    font-family: "Pixelify Sans", system-ui;
+    font-family: "Tiny5", system-ui;
     font-size: 2.5rem;
     margin:-160px -32px 16px 16px;
     padding:0px 84px 0px 16px;
@@ -23,6 +23,7 @@
 }
 
 .dollarSign {
+    font-family: "Pixelify Sans", system-ui;
     color: var(--pale);
     font-size: 3rem;
     position: absolute;
